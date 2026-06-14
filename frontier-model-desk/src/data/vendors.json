@@ -1,0 +1,38 @@
+[
+  {
+    "id": "google",
+    "name": "Google DeepMind / Gemini",
+    "models": "Gemini 2.5/3, Gemini Flash, Deep Think, Veo",
+    "summary": "Лучшее сочетание моделей, инфраструктуры, облака, Workspace, Search, Android и корпоративной дистрибуции.",
+    "scores": { "reasoning": 93, "distribution": 98, "enterprise": 92, "economics": 87, "governance": 82 },
+    "evidence": ["собственная инфраструктура TPU и Google Cloud", "массовая дистрибуция через Workspace, Search, Android", "сильная корпоративная платформа Vertex AI / Gemini Enterprise"],
+    "risk": "Бюрократия Alphabet, антимонопольное давление и риск медленной упаковки продукта."
+  },
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "models": "GPT-5, o-series, GPT-4o, Codex, Sora, ChatGPT",
+    "summary": "Сильнейший бренд, высокая скорость продукта, мощная монетизация через ChatGPT, API и корпоративные продукты.",
+    "scores": { "reasoning": 97, "distribution": 90, "enterprise": 88, "economics": 86, "governance": 70 },
+    "evidence": ["сильная линейка reasoning-моделей", "огромная пользовательская база ChatGPT", "глубокая интеграция с Microsoft/Azure"],
+    "risk": "Высокие затраты на инфраструктуру, зависимость от партнёров и governance-риск."
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "models": "Claude Opus, Claude Sonnet, Claude Code",
+    "summary": "Сильнейшая позиция в корпоративных агентах, кодинге, safety и работе с документами.",
+    "scores": { "reasoning": 95, "distribution": 82, "enterprise": 94, "economics": 84, "governance": 88 },
+    "evidence": ["фокус на безопасном корпоративном ИИ", "Claude Code и агентные сценарии", "партнёрства с AWS, Google Cloud и крупными интеграторами"],
+    "risk": "Зависимость от внешней инфраструктуры и политико-регуляторные ограничения."
+  },
+  {
+    "id": "xai",
+    "name": "xAI / Grok",
+    "models": "Grok 3/4, Grok Think, Grok Code, Colossus",
+    "summary": "Очень сильная вычислительная база и быстрый темп, но корпоративное доверие и монетизация пока слабее доказаны.",
+    "scores": { "reasoning": 84, "distribution": 74, "enterprise": 68, "economics": 72, "governance": 55 },
+    "evidence": ["суперкомпьютерный кластер Colossus", "интеграция с X и возможные связи с Tesla/SpaceX", "акцент на reasoning, код и real-time данные"],
+    "risk": "Репутационная и политическая зависимость от Илона Маска."
+  }
+]
